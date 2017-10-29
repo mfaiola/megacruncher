@@ -4,25 +4,25 @@
     "access-log-file": null,
     "retries": 5,
     "retry-pause": 5,
-    "donate-level": 1,
-    "coin": "xmr",
+    "donate-level": 0,
+    "coin": "aeon",
     "custom-diff": 0,
     "syslog": false,
-    "verbose": false,
+    "verbose": true,
     "workers": true,
     "pools": [
         {
-            "url": "pool.minemonero.pro:80",
-            "user": "44rjefR6KzbHpz3XDHbDpj6X9WKYTBTvHiAuEN4dC4pkL2mBQqhsh6fWeR5JDB29Ks4sTeFKhTWKWQSYLknUn13mRdpmQQF",
-            "pass": "masterdude"
+            "url": "",
+            "user": "",
+            "pass": ""
         }
     ],
     "bind": [
-        "0.0.0.0:3333"
+        "0.0.0.0:80"
     ],
     "api": {
-        "port": 0,
-        "access-token": null,
+        "port": 80,
+        "access-token": "11224367521323123123",
         "worker-id": null
     }
 }
